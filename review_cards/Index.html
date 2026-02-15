@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Basic Web Design Review Cards</title>
+
+<style>
+body{
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 20px;
+}
+
+@keyframes titleIn {
+from {transform: translateY(-20px); }
+to {transform: translateY(0px); }
+}
+
+.a {
+opacity: 0;
+transition: opacity 0.5s ease;
+}
+
+.card:hover .a {
+opacity: 1;
+}
+
+h1{
+text-align: center;
+margin-bottom: 20px;
+animation: titleIn 1s ease 1;
+}
+
+.cards{
+max-width: 800px;
+margin: 0 auto;
+}
+
+.card{
+border: 2px solid black;
+padding: 15px;
+margin-bottom: 12px;
+}
+
+.q{
+font-weight: bold;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Basic Web Design Review Cards</h1>
+
+<div class="cards">
+
+<div class="card">
+<div class="q">1) What is the correct way to set text as bold with CSS?</div>
+<div class="a"> font-weight:bold; </div>
+</div>
+
+<div class="card">
+<div class="q">2) What do you use to add more than one inline style to an element?</div>
+<div class="a"> A semicolon </div>
+</div>
+
+<div class="card">
+<div class="q">3) What is another name for a static element?</div>
+<div class="a"> Non-positioned element </div>
+</div>
+
+<div class="card">
+<div class="q">4) What is your browser's viewport?</div>
+<div class="a"> The area in your browser where web page content is displayed </div>
+</div>
+
+<div class="card">
+<div class="q">5) An element that contains another nested element is referred to as what?</div>
+<div class="a"> A parent element </div>
+</div>
+
+<div class="card">
+<div class="q">6) What is the number system used to generate digital colors?</div>
+<div class="a"> Hexadecimal or hex code </div>
+</div>
+
+<div class="card">
+<div class="q">7) CSS includes three different properties that help air out and organize webpage designs; what are they?</div>
+<div class="a"> Padding, Margin, and Border </div>
+</div>
+
+<div class="card">
+<div class="q">8) What RGB code would you use to produce cyan?</div>
+<div class="a"> rgb(0,255,255) </div>
+</div>
+
+</div>
+</body>
+</html>
+
+
